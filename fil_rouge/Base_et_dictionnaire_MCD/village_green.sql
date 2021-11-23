@@ -1,15 +1,16 @@
 DROP
-DATABASE IF EXISTS `village_green`;
+    DATABASE IF EXISTS `village_green`;
 CREATE
-DATABASE  `village_green`;
+    DATABASE `village_green`;
 USE
-`village_green`;
+    `village_green`;
 CREATE TABLE countries
 (
-    cou_id   int(10) NOT NULL AUTO_INCREMENT,
+    cou_id   int(10)     NOT NULL AUTO_INCREMENT,
     cou_name varchar(45) NOT NULL,
     PRIMARY KEY (cou_id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;
 
 CREATE TABLE suppliers
 (
@@ -23,30 +24,34 @@ CREATE TABLE suppliers
     sup_cou_id    int(10) NOT NULL,
     PRIMARY KEY (sup_id),
     CONSTRAINT `suppliers_fk_1` FOREIGN KEY (sup_cou_id) REFERENCES country (cou_id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;
 
 CREATE TABLE categories
 (
-    cat_id        int(10) NOT NULL AUTO_INCREMENT,
+    cat_id        int(10)     NOT NULL AUTO_INCREMENT,
     cat_name      VARCHAR(50) NOT NULL,
     cat_parent_id int(10),
     PRIMARY KEY (cat_id),
     CONSTRAINT `category_ibfk_1` FOREIGN KEY (`cat_parent_id`) REFERENCES `category` (`cat_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;
 
 CREATE TABLE departments
 (
     dep_id   int(10) NOT NULL AUTO_INCREMENT,
     dep_name VARCHAR(50),
     PRIMARY KEY (dep_id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;
 
 CREATE TABLE posts
 (
-    pos_id  int(10) NOT NULL AUTO_INCREMENT,
+    pos_id   int(10) NOT NULL AUTO_INCREMENT,
     pos_name VARCHAR(50),
     PRIMARY KEY (pos_id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;
 
 CREATE TABLE products
 (
@@ -59,12 +64,13 @@ CREATE TABLE products
     pro_price       DECIMAL(5, 2),
     pro_status      INT,
     pro_stock       INT,
-    pro_cat_id      INT NOT NULL,
-    pro_sup_id      INT NOT NULL,
+    pro_cat_id      INT     NOT NULL,
+    pro_sup_id      INT     NOT NULL,
     PRIMARY KEY (pro_id),
     CONSTRAINT `products_category_fk_1` FOREIGN KEY (pro_cat_id) REFERENCES category (cat_id),
     CONSTRAINT `products_suppliers_fk_1` FOREIGN KEY (pro_sup_id) REFERENCES suppliers (sup_id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;
 
 CREATE TABLE employees
 (
@@ -75,14 +81,15 @@ CREATE TABLE employees
     emp_cp        VARCHAR(15),
     emp_city      VARCHAR(50),
     emp_tel       VARCHAR(15),
-    emp_dep_id    INT NOT NULL,
-    emp_post_id   INT NOT NULL,
+    emp_dep_id    INT     NOT NULL,
+    emp_post_id   INT     NOT NULL,
     emp_cou_id    int(10) NOT NULL,
     PRIMARY KEY (emp_id),
     CONSTRAINT `employees_departments_fk_1` FOREIGN KEY (emp_dep_id) REFERENCES departments (dep_id),
     CONSTRAINT `employees_posts_fk_1` FOREIGN KEY (emp_post_id) REFERENCES posts (post_id),
     CONSTRAINT `employees_country_fk_1` FOREIGN KEY (emp_cou_id) REFERENCES country (cou_id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;
 
 CREATE TABLE customers
 (
@@ -101,12 +108,13 @@ CREATE TABLE customers
     cus_delivery_city    VARCHAR(50),
     cus_type             VARCHAR(50),
     cus_coef             INT,
-    cus_emp_id           INT NOT NULL,
+    cus_emp_id           INT     NOT NULL,
     cus_cou_id           int(10) NOT NULL,
     PRIMARY KEY (cus_id),
     CONSTRAINT `customers_employee_fk1` FOREIGN KEY (cus_emp_id) REFERENCES employee (emp_id),
     CONSTRAINT `customer_country_fk1` FOREIGN KEY (cus_cou_id) REFERENCES country (cou_id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;
 
 CREATE TABLE orders
 (
@@ -122,10 +130,11 @@ CREATE TABLE orders
     ord_delivery_cp      VARCHAR(15),
     ord_delivery_city    VARCHAR(50),
     ord_status           VARCHAR(50),
-    ord_cus_id           INT NOT NULL,
+    ord_cus_id           INT     NOT NULL,
     PRIMARY KEY (ord_id),
     CONSTRAINT `orders_fk_1` FOREIGN KEY (ord_cus_id) REFERENCES customer (cus_id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;
 
 CREATE TABLE orders_details
 (
@@ -138,5 +147,18 @@ CREATE TABLE orders_details
     PRIMARY KEY (ode_id),
     CONSTRAINT `orders_details_fk_1` FOREIGN KEY (ode_pro_id) REFERENCES products (pro_id),
     CONSTRAINT `orders_details_fk_2` FOREIGN KEY (ode_ord_id) REFERENCES orders (ord_id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;
 
+CREATE TABLE habiter
+(
+    cus_id   INT(10),
+    cou_id    INT(10),
+    Address  VARCHAR(150),
+    Zip_code VARCHAR(15),
+    City     VARCHAR(50),
+    Type     VARCHAR(50),
+    PRIMARY KEY (cus_id, cou_id),
+    FOREIGN KEY (cus_id) REFERENCES customers (cus_id),
+    FOREIGN KEY (cou_id) REFERENCES countries (cou_id)
+);
