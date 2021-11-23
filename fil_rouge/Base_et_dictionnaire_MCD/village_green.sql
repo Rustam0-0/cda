@@ -43,9 +43,9 @@ CREATE TABLE departments
 
 CREATE TABLE posts
 (
-    post_id  int(10) NOT NULL AUTO_INCREMENT,
+    pos_id  int(10) NOT NULL AUTO_INCREMENT,
     pos_name VARCHAR(50),
-    PRIMARY KEY (post_id)
+    PRIMARY KEY (pos_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE products
