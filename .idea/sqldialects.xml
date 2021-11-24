@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/BDD_Creer_la_base_MySQL/exercice_1/hotel.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/BDD_Creer_la_base_MySQL/exercice_2/base_exercice_2.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/evaluation_mettre_en_place_une_base_de_donnees/exercice_1/base_de_donnees.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/fil_rouge/Base_et_dictionnaire_MCD/village_green.sql" dialect="MariaDB" />
   </component>
 </project>
