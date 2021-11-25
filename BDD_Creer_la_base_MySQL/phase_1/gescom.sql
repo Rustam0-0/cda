@@ -77,3 +77,5 @@ CREATE TABLE products
     CONSTRAINT `products_fk_3` FOREIGN KEY (pro_cat_id) REFERENCES category (cat_id),
     CONSTRAINT `products_fk_4` FOREIGN KEY (sup_id) REFERENCES suppliers (sup_id)
 );
+
+ALTER TABLE products ADD INDEX `index_pro_ref` (`pro_ref`);
