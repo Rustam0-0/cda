@@ -14,4 +14,4 @@ select nom, noemp, nodep from employe where titre="Secrétaire";
 select nom, nodep from employe where nodep>40
 --8. Afficher le nom et le prénom des employés dont le nom est alphabétiquement antérieur au prénom.
 select nom, prenom from employe order by nom, prenom asc
---
+--9. Afficher le nom, le salaire et le numéro du département des employésdont le titre est « Représentant », le numéro de département est 35 et le salaire est supérieur à 20000.
