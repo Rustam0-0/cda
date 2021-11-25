@@ -73,10 +73,3 @@ CREATE TABLE `vente`
     CONSTRAINT `vente_ibfk_1` FOREIGN KEY (`numfou`) REFERENCES `fournis` (`numfou`),
     CONSTRAINT `vente_ibfk_2` FOREIGN KEY (`codart`) REFERENCES `produit` (`codart`)
 );
-©
-2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
