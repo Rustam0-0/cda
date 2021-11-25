@@ -70,4 +70,4 @@ select nom, salaire,tauxcom, (salaire*tauxcom) as commission from employe where 
 select nom, salaire,tauxcom, (salaire*tauxcom) as commission from employe where tauxcom is not null order by tauxcom asc
 
 --28. Afficher le nom et le prénom (concaténés) des employés. Renommer les colonnes
-select concat(nom,prenom) as nometprenom from employe
+select concat(nom,prenom) as `nom et prenom` from employe
