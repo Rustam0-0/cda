@@ -32,3 +32,42 @@ select nom, titre, salaire  from employe where titre="Représentant" or  titre="
 
 --11.Afficher le nom, le titre, le numéro de département, le salaire des employés du département 34,
 -- dont le titre est « Représentant » ou « Secrétaire ».
+select nom, titre, nodep, salaire  from employe where nodep =34 and  (titre="Représentant" or titre="Secrétaire");
+
+--12.Afficher le nom, le titre, le numéro de département, le salaire des employés dont le titre est Représentant,
+-- ou dont le titre est Secrétaire dans le département numéro 34.
+select nom, titre, nodep, salaire  from employe where nodep =34 and  (titre="Représentant" or titre="Secrétaire");
+
+--13.Afficher le nom, et le salaire des employés dont le salaire est compris entre 20000 et 30000.
+select nom, salaire from employe where  salaire >=20000 and salaire <=30000 ;
+
+--15.Afficher le nom des employés commençant par la lettre « H ».
+select nom from employe where  nom like 'H%' ;
+
+
+--16.Afficher le nom des employés se terminant par la lettre « n ».
+select nom from employe where  nom like '%n' ;
+
+--17.Afficher le nom des employés contenant la lettre « u » en 3ème position.
+select nom from employe where  nom like '__u%' ;
+
+
+--18.Afficher le salaire et le nom des employés du service 41 classés par salaire croissant.
+select salaire, nom from employe where nodep= 41 order by salaire asc
+
+--19.Afficher le salaire et le nom des employés du service 41 classés par salaire décroissant.
+select salaire, nom from employe where nodep= 41 order by salaire desc
+
+--20.Afficher le titre, le salaire et le nom des employés classés par titre croissant et par salaire décroissant.
+select titre, salaire nom from employe where nodep= 41 group by titre asc ,salaire desc
+
+--26.Afficher le nom, le salaire, le taux de commission et la commission des employés dont le taux de commission
+-- n'est pas nul. (la commission est calculée en multipliant le salaire par le taux de commission)
+select nom, salaire,tauxcom, (salaire*tauxcom) as commission from employe where tauxcom is not null
+
+--27. Afficher le nom, le salaire, le taux de commission, la commission des
+--employés dont le taux de commission n'est pas nul, classé par taux de commission croissant.
+select nom, salaire,tauxcom, (salaire*tauxcom) as commission from employe where tauxcom is not null order by tauxcom asc
+
+--28. Afficher le nom et le prénom (concaténés) des employés. Renommer les colonnes
+select concat(nom,prenom) as nometprenom from employe
