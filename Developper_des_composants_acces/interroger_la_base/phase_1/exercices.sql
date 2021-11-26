@@ -56,18 +56,28 @@ select nom from employe where  nom like '__u%' ;
 select salaire, nom from employe where nodep= 41 order by salaire asc
 
 --19.Afficher le salaire et le nom des employés du service 41 classés par salaire décroissant.
-select salaire, nom from employe where nodep= 41 order by salaire desc
+select salaire, nom from employe where nodep= 41 order by salaire desc;
 
 --20.Afficher le titre, le salaire et le nom des employés classés par titre croissant et par salaire décroissant.
-select titre, salaire nom from employe where nodep= 41 group by titre asc ,salaire desc
+select titre, salaire nom from employe where nodep= 41 group by titre asc ,salaire desc;
 
 --26.Afficher le nom, le salaire, le taux de commission et la commission des employés dont le taux de commission
 -- n'est pas nul. (la commission est calculée en multipliant le salaire par le taux de commission)
-select nom, salaire,tauxcom, (salaire*tauxcom) as commission from employe where tauxcom is not null
+select nom, salaire,tauxcom, (salaire*tauxcom) as commission from employe where tauxcom is not null;
 
 --27. Afficher le nom, le salaire, le taux de commission, la commission des
 --employés dont le taux de commission n'est pas nul, classé par taux de commission croissant.
-select nom, salaire,tauxcom, (salaire*tauxcom) as commission from employe where tauxcom is not null order by tauxcom asc
+select nom, salaire,tauxcom, (salaire*tauxcom) as commission from employe where tauxcom is not null order by tauxcom asc;
 
 --28. Afficher le nom et le prénom (concaténés) des employés. Renommer les colonnes
-select concat(nom,prenom) as `nom et prenom` from employe
+select concat(nom,prenom) as `nom et prenom` from employe;
+
+--29. Afficher les 5 premières lettres du nom des employés.
+select substring(nom,1,5) from employe;
+
+--30. Afficher le nom et le rang de la lettre « r » dans le nom des employés.
+select concat(nom," ", titre)  as `nom et rang` from employe where titre like 'r%';
+--31. Afficher le nom, le nom en majuscule et le nom en minuscule de l'employé dont le nom est Vrante.
+select concat( UCASE(nom)," ", LCASE(nom))  as `nom et rang` from employe where nom ="Vrante";
+--32. Afficher le nom et le nombre de caractères du nom des employés. CHAR_LENGTH('test string');
+select concat( nom," ", CHAR_LENGTH(nom))  as `nom et nombre de caractére` from employe;
