@@ -8,10 +8,10 @@ SELECT AVG(salaire) as `Moyenne des salaires`, sum(salaire) as somme, dept.nom a
 SELECT nodep, COUNT(*) as COUNT FROM employe GROUP by nodep HAVING COUNT(*)>=3;
 
 #4. Afficher les lettres qui sont l'initiale d'au moins trois employés.
-SELECT substring(nom,1,1) FROM `employe` limit 3;
+SELECT substring(nom,1,1) as nbremp FROM `employe` group by nbremp having count(nbremp)>=3;
 
 #5. Rechercher le salaire maximum et le salaire minimum parmi tous les salariés et l'écart entre les deux.
-SELECT max(salaire), min(salaire) FROM employe;
+SELECT max(salaire) as maxsal, min(salaire) as minsal, (max(salaire) - min(salaire))as ecart FROM employe;
 
 #6. Rechercher le nombre de titres différents.
 SELECT COUNT(DISTINCT titre)  FROM employe;
