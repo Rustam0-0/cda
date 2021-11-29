@@ -2,22 +2,22 @@
 SELECT titre, COUNT(*) FROM employe GROUP BY titre;
 
 #2. Calculer la moyenne des salaires et leur somme, par région.
-SELECT AVG(salaire) as `Moyenne des salaires`, sum(salaire) as somme, dept.nom as `nom région` FROM employe JOIN dept on employe.nodep = employe.nodep GROUP by dept.nom
+SELECT AVG(salaire) as `Moyenne des salaires`, sum(salaire) as somme, dept.nom as `nom région` FROM employe JOIN dept on employe.nodep = employe.nodep GROUP by dept.nom;
 
 #3. Afficher les numéros des départements ayant au moins 3 employés.
-
+SELECT nodep, COUNT(*) as COUNT FROM employe GROUP by nodep HAVING COUNT(*)>=3;
 
 #4. Afficher les lettres qui sont l'initiale d'au moins trois employés.
-
+SELECT substring(nom,1,1) FROM `employe` limit 3;
 
 #5. Rechercher le salaire maximum et le salaire minimum parmi tous les salariés et l'écart entre les deux.
-
+SELECT max(salaire), min(salaire) FROM employe;
 
 #6. Rechercher le nombre de titres différents.
-
+SELECT titre, COUNT(titre) FROM employe GROUP by titre;
 
 #7. Pour chaque titre, compter le nombre d'employés possédant ce titre.
-
+SELECT titre, COUNT(titre) FROM employe GROUP by titre;
 
 #8. Pour chaque nom de département, afficher le nom du département et le nombre d'employés.
 
