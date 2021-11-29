@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/Developper_des_composants_acces/interroger_la_base/phase_1/parti_2/exercice.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/evaluation_mettre_en_place_une_base_de_donnees/exercice_1/base_de_donnees.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/fil_rouge/Base_et_dictionnaire_MCD/village_green.sql" dialect="MariaDB" />
+    <file url="PROJECT" dialect="MariaDB" />
   </component>
 </project>
