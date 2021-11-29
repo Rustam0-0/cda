@@ -76,7 +76,7 @@ select concat(nom,prenom) as `nom et prenom` from employe;
 select substring(nom,1,5) from employe;
 
 --30. Afficher le nom et le rang de la lettre « r » dans le nom des employés.
-select concat(nom," ", titre)  as `nom et rang` from employe where titre like 'r%';
+select nom, instr(nom,"r")  as `rang` from employe where nom like '%r%';
 --31. Afficher le nom, le nom en majuscule et le nom en minuscule de l'employé dont le nom est Vrante.
 select concat( UCASE(nom)," ", LCASE(nom))  as `nom et rang` from employe where nom ="Vrante";
 --32. Afficher le nom et le nombre de caractères du nom des employés. CHAR_LENGTH('test string');
