@@ -7,5 +7,7 @@ update vente set prix2 = prix1 where prix2 is null
 -- un indice de satisfaction <5
 UPDATE fournis f INNER JOIN entcom e ON f.numfou = e.numfou SET e.obscom = '*****' WHERE f.satisf < 5
 --4. Suppression du produit I110
-
+DELETE FROM vente WHERE codart = 'I110';
+DELETE FROM produit  WHERE codart = 'I110';
 --5. Suppression des entête de commande qui n'ont aucune ligne
+DELETE e FROM entcom e LEFT JOIN ligcom l on e.numcom= l.numcom WHERE l.numcom IS NULL
