@@ -14,13 +14,13 @@ SELECT substring(nom,1,1) FROM `employe` limit 3;
 SELECT max(salaire), min(salaire) FROM employe;
 
 #6. Rechercher le nombre de titres différents.
-SELECT titre, COUNT(titre) FROM employe GROUP by titre;
+SELECT COUNT(DISTINCT titre)  FROM employe;
 
 #7. Pour chaque titre, compter le nombre d'employés possédant ce titre.
 SELECT titre, COUNT(titre) FROM employe GROUP by titre;
 
 #8. Pour chaque nom de département, afficher le nom du département et le nombre d'employés.
-
+SELECT dept.nom, COUNT(noemp) FROM dept JOIN employe ON dept.nodept = employe.nodep GROUP by dept.nom
 
 #9. Rechercher les titres et la moyenne des salaires par titre dont la moyenne est supérieure à la moyenne des salaires des Représentants.
 
