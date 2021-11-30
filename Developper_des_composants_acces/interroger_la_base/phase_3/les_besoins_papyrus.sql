@@ -146,5 +146,10 @@ HAVING stkphy <= (stkale) * 1.5
 ORDER by stkphy desc
 #18. En fin d'année, sortir la liste des produits dont la quantité réellement commandée dépasse 90% de la quantité annuelle prévue.
 
+SELECT produit.libart, (produit.qteann*0.9) as `quantité annuel`, ligcom.qtecde
+FROM produit
+         JOIN ligcom
+              ON produit.codart=ligcom.codart
+WHERE produit.qteann*0.9 < ligcom.qtecde
 
 #19. Calculer le chiffre d'affaire par fournisseur pour l'année 93 sachant que les prix indiqués sont hors taxes et que le taux de TVA est 20%.
