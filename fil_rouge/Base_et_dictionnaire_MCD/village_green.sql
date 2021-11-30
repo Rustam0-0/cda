@@ -2,9 +2,9 @@ CREATE TABLE categories
 (
     cat_id   INT AUTO_INCREMENT,
     cat_name VARCHAR(50) NOT NULL,
-    cat_id_1 INT,
+    cat_id_parent INT,
     PRIMARY KEY (cat_id),
-    FOREIGN KEY (cat_id_1) REFERENCES categories (cat_id)
+    FOREIGN KEY (cat_id_parent) REFERENCES categories (cat_id)
 );
 
 CREATE TABLE departments

@@ -15,4 +15,4 @@ SELECT cli_id, cli_nom, res_cli_id, res_cha_id, cha_hot_id, hot_nom, hot_id FROM
 
 
 --17 - Afficher la durée moyenne des réservations par station
-SELECT DATEDIFF( res_date_fin,  res_date_debut) FROM `client` join reservation on res_cli_id = cli_id  JOIN chambre ON cha_id = res_cha_id join hotel on hot_id = cha_hot_id JOIN station ON hot_sta_id = sta_id
+SELECT AVG(DATEDIFF( res_date_fin,  res_date_debut)) FROM `client` join reservation on res_cli_id = cli_id  JOIN chambre ON cha_id = res_cha_id join hotel on hot_id = cha_hot_id JOIN station ON hot_sta_id = sta_id
