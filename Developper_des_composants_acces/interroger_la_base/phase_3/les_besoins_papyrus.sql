@@ -23,7 +23,7 @@ select datcom as 'commandes passées au mois de mars et avril' from ENTCOM WHERE
 
 #7 Quelles sont les commandes du jour qui ont des observations particulières ?(Affichage numéro de commande, date de commande)
 # note seul jour c'est le 23 qui est présent en base
-SELECT numcom, datcom FROM entcom where obscom !=""and date(datcom)= CURRENT_DATE();
+SELECT numcom, datcom FROM entcom where obscom !="" and date(datcom)= CURRENT_DATE();
 
 # 8 Lister le total de chaque commande par total décroissant (Affichage numéro de commande et total)
 SELECT numcom AS 'Numéro de commande', SUM(qtecde * priuni )as total FROM ligcom GROUP BY numcom  ORDER BY total desc
