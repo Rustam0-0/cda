@@ -133,10 +133,10 @@ GROUP BY fournis.nomfou, produit.libart
 HAVING stkphy <= (stkale) * 1.5
 
 #17. Avec le même type de sélection que ci-dessus, sortir un total des stocks par fournisseur trié par total décroissant
-SELECT fournis.nomfou    AS Fournisseur,
-       produit.stkphy    AS Stock_physique,
-       produit.stkale    AS Stock_alerte,
-       stkphy as `total des stock`
+SELECT fournis.nomfou AS Fournisseur,
+       produit.stkphy AS Stock_physique,
+       produit.stkale AS Stock_alerte,
+       stkphy         as `total des stock`
 FROM fournis
          JOIN vente ON fournis.numfou = vente.numfou
          JOIN produit ON produit.codart = vente.codart
@@ -146,10 +146,19 @@ HAVING stkphy <= (stkale) * 1.5
 ORDER by stkphy desc
 #18. En fin d'année, sortir la liste des produits dont la quantité réellement commandée dépasse 90% de la quantité annuelle prévue.
 
-SELECT produit.libart, (produit.qteann*0.9) as `quantité annuel`, ligcom.qtecde
+SELECT produit.libart, (produit.qteann * 0.9) as `quantité annuel`, ligcom.qtecde
 FROM produit
          JOIN ligcom
-              ON produit.codart=ligcom.codart
-WHERE produit.qteann*0.9 < ligcom.qtecde
+              ON produit.codart = ligcom.codart
+WHERE produit.qteann * 0.9 < ligcom.qtecde
 
 #19. Calculer le chiffre d'affaire par fournisseur pour l'année 93 sachant que les prix indiqués sont hors taxes et que le taux de TVA est 20%.
+
+SELECT SUM(
+               ligcom.priuni * ligcom.qtecde * 1.2) as `chiffre d'affaire`
+
+from entcom
+         JOIN ligcom ON ligcom.numcom = entcom.numcom
+
+WHERE YEAR(ligcom.derliv) = 2007
+GROUP BY entcom.numfou
