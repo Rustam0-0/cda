@@ -9,4 +9,4 @@ UPDATE fournis f INNER JOIN entcom e ON f.numfou = e.numfou SET e.obscom = '****
 DELETE FROM vente WHERE codart = 'I110';
 DELETE FROM produit  WHERE codart = 'I110';
 #5. Suppression des entête de commande qui n'ont aucune ligne
-DELETE e FROM entcom e LEFT JOIN ligcom l on e.numcom= l.numcom WHERE l.numcom IS NULL
+DELETE e FROM entcom e LEFT JOIN ligcom l on e.numcom= l.numcom WHERE l.numcom IS NULL;
