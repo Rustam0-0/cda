@@ -17,7 +17,7 @@ DELIMITER ;
 #Exercice 2 : création d'une procédure stockée avec un paramètre en entrée
 #Créer la procédure stockée Lst_Commandes, qui liste les commandes ayant un libellé particulier dans le champ obscom (cette requête sera construite à partir de la requête n°11).
 DELIMITER  $$
-CREATE PROCEDURE List_fournis()
+CREATE PROCEDURE List_fournis(In coms varchar(50))
 begin
     SELECT entcom.numcom        AS 'numéro de commande',
            fournis.nomfou       AS 'nom du fournisseur',
@@ -27,7 +27,7 @@ begin
              JOIN produit ON produit.codart = ligcom.codart
              JOIN entcom ON entcom.numcom = ligcom.numcom
              JOIN fournis ON fournis.numfou = entcom.numfou
-    WHERE obscom LIKE '%urgent%'
+    WHERE obscom LIKE coms
     GROUP BY entcom.numcom, nomfou, libart;
 end $$
 DELIMITER ;
@@ -39,19 +39,16 @@ DELIMITER ;
 #On exécutera la requête que si le code fournisseur est valide, c'est-à-dire dans la table FOURNIS.
 
 DELIMITER  $$
-CREATE PROCEDURE CA_fournisseur(In Year int(4))
+CREATE PROCEDURE CA_fournisseur(In Codefournis int(10),Year int(4))
 begin
     SELECT SUM(
                    ligcom.priuni * ligcom.qtecde * 1.2) as `chiffre d'affaire`
-
     from entcom
              JOIN ligcom ON ligcom.numcom = entcom.numcom
-             JOIN fournis on entcom.numfou = fournis.numfou
-    WHERE YEAR(ligcom.derliv) = Year
+    WHERE YEAR(ligcom.derliv) = Year and entcom.numfou = Codefournis
     GROUP BY entcom.numfou;
 end $$
 DELIMITER ;
 
 #Testez cette procédure avec différentes valeurs des paramètres.
-call CA_fournisseur(2007);
-call CA_fournisseur(2000);
+call CA_fournisseur(120,2007);
