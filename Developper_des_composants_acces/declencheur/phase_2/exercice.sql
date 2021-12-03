@@ -17,8 +17,14 @@ CREATE TRIGGER after_products_update
     ON produit
     FOR EACH ROW
 BEGIN
-    IF NEW.stkale < NEW.stkphy THEN
-        INSERT INTO ARTICLES_A_COMMANDER (QTE, CODART) VALUES ((NEW.stkale - NEW.stkphy), NEW.CODART);
+    declare qte_commande int;
+    set qte_commande = (select ARTICLES_A_COMMANDER.QTE from ARTICLES_A_COMMANDER where ARTICLES_A_COMMANDER.CODART=NEW.CODART);
+    if  qte_commande is null then
+        set qte_commande = 0;
+    end if;
+    IF NEW.stkale > NEW.stkphy THEN
+
+        INSERT INTO ARTICLES_A_COMMANDER (QTE, CODART) VALUES ((NEW.stkale - NEW.stkphy - qte_commande), NEW.CODART);
     END IF;
 END $$
 
