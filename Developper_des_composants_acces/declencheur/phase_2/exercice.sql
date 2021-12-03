@@ -20,6 +20,6 @@ BEGIN
     IF NEW.stkale < NEW.stkphy THEN
         INSERT INTO ARTICLES_A_COMMANDER (QTE, CODART) VALUES ((NEW.stkale - NEW.stkphy), NEW.CODART);
     END IF;
-END;
-$$
+END $$
+
 DELIMITER ;
