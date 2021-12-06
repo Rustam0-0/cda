@@ -1,5 +1,1 @@
-on va tout simplement faire une jointure entre le client et le fournisseur afin de voir qu'ils ont le même pays mais en principe
-ce type de requête devrait être faite en amont lors de l'affichage de la liste de produit afin d'évité de rejeté des
- produit au moment de la validation du panier
-
- pour ce faire on fera une requête joint entre Customer, orders, orders_details , products, suppliers
+pour ce faire on fera une requête joint entre Customer, orders, orders_details , products, suppliers
