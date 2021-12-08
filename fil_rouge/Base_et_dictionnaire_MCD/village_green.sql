@@ -1,3 +1,6 @@
+DROP DATABASE if exists village_green;
+create database village_green;
+use village_green;
 CREATE TABLE categories
 (
     cat_id   INT AUTO_INCREMENT,
@@ -96,12 +99,12 @@ CREATE TABLE orders
     ord_date_ship     DATETIME,
     ord_date_delivery DATETIME,
     ord_status        VARCHAR(50),
-    Id_Live           INT NOT NULL,
-    Id_Live_1         INT NOT NULL,
+    ord_billing_address           INT NOT NULL,
+    ord_shippen_address         INT NOT NULL,
     cus_id            INT NOT NULL,
     PRIMARY KEY (ord_id),
-    FOREIGN KEY (Id_Live) REFERENCES Live (Id_Live),
-    FOREIGN KEY (Id_Live_1) REFERENCES Live (Id_Live),
+    FOREIGN KEY (ord_billing_address) REFERENCES Live (Id_Live),
+    FOREIGN KEY (ord_shippen_address) REFERENCES Live (Id_Live),
     FOREIGN KEY (cus_id) REFERENCES customers (cus_id)
 );
 
