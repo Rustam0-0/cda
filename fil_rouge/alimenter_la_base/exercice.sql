@@ -46,3 +46,19 @@ VALUES ('Comptable');
 INSERT INTO `employees` (`emp_id`, `emp_firstname`, `emp_lastname`, `emp_tel`, `Id_Live`, `dep_id`, `pos_id`)
 VALUES (NULL, 'françois-régis', 'caumartin', '0663534369', '8', '6', '1');
 
+## entré des catégories
+
+INSERT INTO `categories` ( `cat_name`, `cat_id_parent`) VALUES ('Guit/Bass', NULL);
+INSERT INTO `categories` ( `cat_name`, `cat_id_parent`) VALUES ('Batteries', NULL);
+INSERT INTO `categories` ( `cat_name`, `cat_id_parent`) VALUES ('Clavier', NULL);
+INSERT INTO `categories` ( `cat_name`, `cat_id_parent`) VALUES ('Studio', NULL);
+INSERT INTO `categories` ( `cat_name`, `cat_id_parent`) VALUES ('Sono', NULL);
+INSERT INTO `categories` ( `cat_name`, `cat_id_parent`) VALUES ('Eclairage', NULL);
+INSERT INTO `categories` ( `cat_name`, `cat_id_parent`) VALUES ('DJ', NULL);
+INSERT INTO `categories` ( `cat_name`, `cat_id_parent`) VALUES ('Cases', NULL);
+INSERT INTO `categories` ( `cat_name`, `cat_id_parent`) VALUES ('Accessoires', NULL);
+
+##insertion de sous catégorie de Guit/bass
+INSERT INTO `categories` ( `cat_name`, `cat_id_parent`) VALUES ('Guitares Electriques', 1);
+INSERT INTO `categories` ( `cat_name`, `cat_id_parent`) VALUES ('Guitares Classiques', 1);
+
