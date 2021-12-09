@@ -1,12 +1,15 @@
 ## entré de donnée  de coordonnées pour les fournisseurs dans la table live
 
 INSERT INTO Live (Live_address, Live_city, Live_zip_code, Live_country)
-VALUES ("532 Cursus. St.", "Chimbote", "21104", "Russian Federation"),
-       ("304-1775 Feugiat Rd.", "Thanh Hóa", "640982", "Mexico"),
-       ("6007 Tellus. Avenue", "Ijebu Ode", "1427", "Netherlands"),
-       ("6008 rar. Avenue", "Ijebu Ode", "1997", "Netherlands"),
-       ("5007 dsfdg. Avenue", "Ijebu Ode", "1427", "Netherlands"),
-       ("3007 abcd. Avenue", "Ijebu Ode", "8427", "Netherlands");
+VALUES (1, '532 Cursus. St.', 'Chimbote', 'Russian Federation', '21104'),
+       (2, '304-1775 Feugiat Rd.', 'Thanh Hóa', 'Mexico', '640982'),
+       (3, '6007 Tellus. Avenue', 'Ijebu Ode', 'Netherlands', '1427'),
+       (4, '532 Cursus. St.', 'Chimbote', 'Russian Federation', '21104'),
+       (5, '304-1775 Feugiat Rd.', 'Thanh Hóa', 'Mexico', '640982'),
+       (6, '6007 Tellus. Avenue', 'Ijebu Ode', 'Netherlands', '1427'),
+       (7, '6008 rar. Avenue', 'Ijebu Ode', 'Netherlands', '1997'),
+       (8, '5007 dsfdg. Avenue', 'Ijebu Ode', 'Netherlands', '1427'),
+       (9, '3007 abcd. Avenue', 'Ijebu Ode', 'Netherlands', '8427');
 
 ## entré de fournisseur qui sera relié au adresse dans live
 
