@@ -4,6 +4,18 @@ A partir du cas Médiathèque
 
 Identifiez les acteurs.
 
+
+les acteurs
+1 usager (emprunteur, lecteur)
+
+2 bénévole, personnel
+
 Ensuite vous identifiez les différents cas d'usage sur le cas Médiathèque.
+
+- emprunter (cd-rom documentaire (encyclopédies, visites de musées) ,livre
+- consulter livre (spéciaux, microfilm)
+- achat des document
+
+
 
 Ecrivez le scénario principal et les scénarios alternatifs pour le cas d'usage qui concerne l'emprunt d'une ressource.
