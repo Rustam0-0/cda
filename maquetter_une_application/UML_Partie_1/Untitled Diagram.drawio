@@ -1,14 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T10:45:54.505Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="16eUmUhse36I1BaQ5o10" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-15T13:56:38.358Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="H5BapAFNaUS8zgwuCihU" version="15.9.6" type="github">
   <diagram id="lQ0a94lmdzaRWGr032du" name="Page-1">
     <mxGraphModel dx="1350" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cyPY-RiiTBD_quAvL_1w-2" value="" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="180" y="-700" width="470" height="1760" as="geometry" />
+        <mxCell id="cyPY-RiiTBD_quAvL_1w-2" value="" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" parent="1" vertex="1">
+          <mxGeometry x="179" y="-1070" width="470" height="1760" as="geometry" />
         </mxCell>
-        <mxCell id="cyPY-RiiTBD_quAvL_1w-3" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;Bibliothéque&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="310" y="-750" width="160" height="20" as="geometry" />
+        <mxCell id="cyPY-RiiTBD_quAvL_1w-3" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;Bibliothéque&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-1110" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BAWyOKDqcm1cY8Z2Vvxt-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-860" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
