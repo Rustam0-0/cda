@@ -12,6 +12,8 @@ les acteurs
 
 Ensuite vous identifiez les différents cas d'usage sur le cas Médiathèque.
 
+- inscription par le personnel
+- créer une carte de lecteur
 - emprunter (cd-rom documentaire (encyclopédies, visites de musées) ,livre
 - consulter livre (spéciaux, microfilm)
 - acheter des documents
