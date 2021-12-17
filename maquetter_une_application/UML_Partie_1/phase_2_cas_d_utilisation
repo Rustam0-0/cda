@@ -8,7 +8,9 @@ Identifiez les acteurs.
 les acteurs
 1 usager (emprunteur, lecteur)
 
-2 bénévole, personnel
+2 bénévole, 
+
+3 personnel
 
 Ensuite vous identifiez les différents cas d'usage sur le cas Médiathèque.
 
@@ -21,3 +23,15 @@ Ensuite vous identifiez les différents cas d'usage sur le cas Médiathèque.
 
 
 Ecrivez le scénario principal et les scénarios alternatifs pour le cas d'usage qui concerne l'emprunt d'une ressource.
+
+Scenario Emprunter
+
+
+Système: Le système propose de rentrer le code client
+Acteur: Le client entre le numéro et valide
+
+Système: Le système vérifie le paiement de la cotisation: 
+    - OK Le système demande de scanner le premier produit
+    - Pas OK Le système affiche une alerte ...
+Acteur:
+
