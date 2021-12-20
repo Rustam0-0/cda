@@ -36,3 +36,5 @@ Système: Le système vérifie le paiement de la cotisation:
     - Pas OK Le système affiche une alerte cotisation non payé
 
 Acteur:
+    - donne le produit à scanner
+
