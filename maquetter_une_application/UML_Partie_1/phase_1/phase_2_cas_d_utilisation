@@ -39,3 +39,4 @@ Acteur:
     - si ok donne le produit à scanner
     - si pas ok paye la cotisation demandé
 
+Système: Création de la fiche d'emprunt
