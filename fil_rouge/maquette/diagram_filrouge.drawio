@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T15:48:30.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Jo6MwwRgdOHJlT6tjoZv" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-17T15:49:27.973Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="i4tbdh9cz52E6h53glFa" version="16.2.7" type="github" pages="4">
   <diagram id="ly7LOqy5U7Yrtg82am8c" name="Accueil">
     <mxGraphModel dx="2591" dy="1524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -488,73 +488,73 @@
           <mxGeometry x="886" y="242" width="103" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-44" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th align=&quot;left&quot;&gt;Produit&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Prix Unitaire&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Quantité&lt;/th&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;Guitare&lt;/td&gt;&lt;td&gt;1000€&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;piano&lt;/td&gt;&lt;td&gt;3210€&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;tambour&lt;/td&gt;&lt;td&gt;1254€&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;trompette&lt;/td&gt;&lt;td&gt;2412€&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22shape%3Dimage%3Bhtml%3D1%3BverticalAlign%3Dtop%3BverticalLabelPosition%3Dbottom%3BlabelBackgroundColor%3D%23ffffff%3BimageAspect%3D0%3Baspect%3Dfixed%3Bimage%3Dhttps%3A%2F%2Fcdn4.iconfinder.com%2Fdata%2Ficons%2Fionicons%2F512%2Ficon-plus-128.png%3Bshadow%3D0%3BfontSize%3D18%3BfontColor%3D%231A1A1A%3BstrokeColor%3D%23011D7A%3BfillColor%3D%23FFFFFF%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22790%22%20y%3D%22440%22%20width%3D%2220%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%223%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3Bshadow%3D0%3BfontSize%3D18%3BfontColor%3D%231A1A1A%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22740%22%20y%3D%22435%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;shadow=0;fontSize=18;fontColor=#1A1A1A;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-2">
-          <mxGeometry x="50" y="350" width="940" height="320" as="geometry" />
+          <mxGeometry x="110" y="350" width="940" height="320" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-45" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-trash-outline-128.png;shadow=0;fontSize=18;fontColor=#1A1A1A;strokeColor=#011D7A;fillColor=#FFFFFF;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-2">
-          <mxGeometry x="954" y="430" width="40" height="40" as="geometry" />
+          <mxGeometry x="1014" y="430" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-49" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-plus-128.png;shadow=0;fontSize=18;fontColor=#1A1A1A;strokeColor=#011D7A;fillColor=#FFFFFF;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-2">
-          <mxGeometry x="790" y="430" width="20" height="20" as="geometry" />
+          <mxGeometry x="850" y="430" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-50" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontColor=#1A1A1A;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-2">
-          <mxGeometry x="740" y="425" width="60" height="30" as="geometry" />
+          <mxGeometry x="800" y="425" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-51" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-minus-128.png;shadow=0;fontSize=18;fontColor=#1A1A1A;strokeColor=#011D7A;fillColor=#FFFFFF;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-2">
-          <mxGeometry x="732" y="431" width="20" height="20" as="geometry" />
+          <mxGeometry x="792" y="431" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-57" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontColor=#1A1A1A;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-2">
-          <mxGeometry x="750" y="620" width="60" height="30" as="geometry" />
+          <mxGeometry x="810" y="620" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-56" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-plus-128.png;shadow=0;fontSize=18;fontColor=#1A1A1A;strokeColor=#011D7A;fillColor=#FFFFFF;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-2">
-          <mxGeometry x="793" y="624" width="20" height="20" as="geometry" />
+          <mxGeometry x="853" y="624" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-72" value="Sous total" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fontColor=#1A1A1A;strokeColor=#011D7A;fillColor=#FFFFFF;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-2">
-          <mxGeometry x="439" y="670" width="220" height="60" as="geometry" />
+          <mxGeometry x="499" y="670" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-73" value="Total" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fontColor=#1A1A1A;strokeColor=#011D7A;fillColor=#FFFFFF;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-2">
-          <mxGeometry x="660" y="670" width="329" height="60" as="geometry" />
+          <mxGeometry x="720" y="670" width="329" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-74" value="7876€" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fontColor=#1A1A1A;strokeColor=#011D7A;fillColor=#FFFFFF;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-2">
-          <mxGeometry x="440" y="730" width="220" height="60" as="geometry" />
+          <mxGeometry x="500" y="730" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-75" value="9451.2€" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fontColor=#1A1A1A;strokeColor=#011D7A;fillColor=#FFFFFF;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-2">
-          <mxGeometry x="660" y="731" width="330" height="60" as="geometry" />
+          <mxGeometry x="720" y="731" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-76" value="TVA 20%" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fontColor=#1A1A1A;strokeColor=#011D7A;fillColor=#FFFFFF;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-2">
-          <mxGeometry x="319" y="670" width="120" height="60" as="geometry" />
+          <mxGeometry x="379" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-77" value="1575.2€" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fontColor=#1A1A1A;strokeColor=#011D7A;fillColor=#FFFFFF;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-2">
-          <mxGeometry x="319" y="731" width="120" height="60" as="geometry" />
+          <mxGeometry x="379" y="731" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-46" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-trash-outline-128.png;shadow=0;fontSize=18;fontColor=#1A1A1A;strokeColor=#011D7A;fillColor=#FFFFFF;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-1">
-          <mxGeometry x="956" y="499" width="40" height="40" as="geometry" />
+          <mxGeometry x="1016" y="499" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-47" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-trash-outline-128.png;shadow=0;fontSize=18;fontColor=#1A1A1A;strokeColor=#011D7A;fillColor=#FFFFFF;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-1">
-          <mxGeometry x="955" y="561" width="40" height="40" as="geometry" />
+          <mxGeometry x="1015" y="561" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-48" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-trash-outline-128.png;shadow=0;fontSize=18;fontColor=#1A1A1A;strokeColor=#011D7A;fillColor=#FFFFFF;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-1">
-          <mxGeometry x="955" y="630" width="40" height="40" as="geometry" />
+          <mxGeometry x="1015" y="630" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-52" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-plus-128.png;shadow=0;fontSize=18;fontColor=#1A1A1A;strokeColor=#011D7A;fillColor=#FFFFFF;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-1">
-          <mxGeometry x="792" y="514" width="20" height="20" as="geometry" />
+          <mxGeometry x="852" y="514" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-53" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontColor=#1A1A1A;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-1">
-          <mxGeometry x="742" y="509" width="60" height="30" as="geometry" />
+          <mxGeometry x="802" y="509" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-54" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-plus-128.png;shadow=0;fontSize=18;fontColor=#1A1A1A;strokeColor=#011D7A;fillColor=#FFFFFF;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-1">
-          <mxGeometry x="794" y="568" width="20" height="20" as="geometry" />
+          <mxGeometry x="854" y="568" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-55" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontColor=#1A1A1A;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-1">
-          <mxGeometry x="744" y="563" width="60" height="30" as="geometry" />
+          <mxGeometry x="804" y="563" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-58" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-minus-128.png;shadow=0;fontSize=18;fontColor=#1A1A1A;strokeColor=#011D7A;fillColor=#FFFFFF;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-1">
-          <mxGeometry x="732" y="516" width="20" height="20" as="geometry" />
+          <mxGeometry x="792" y="516" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-59" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-minus-128.png;shadow=0;fontSize=18;fontColor=#1A1A1A;strokeColor=#011D7A;fillColor=#FFFFFF;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-1">
-          <mxGeometry x="733" y="570" width="20" height="20" as="geometry" />
+          <mxGeometry x="793" y="570" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PdrywZb8kn_Gt6ogw5-u-60" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-minus-128.png;shadow=0;fontSize=18;fontColor=#1A1A1A;strokeColor=#011D7A;fillColor=#FFFFFF;" vertex="1" parent="PdrywZb8kn_Gt6ogw5-u-1">
-          <mxGeometry x="742" y="634" width="20" height="20" as="geometry" />
+          <mxGeometry x="802" y="634" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
