@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T19:14:53.830Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="3TPSg8FsR_ETJUEH6Jko" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-17T19:15:13.470Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="XtCcao1A2Qkz48nlNWMD" version="16.2.7" type="github" pages="4">
   <diagram id="ly7LOqy5U7Yrtg82am8c" name="Accueil">
     <mxGraphModel dx="2591" dy="1524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -337,10 +337,10 @@
         <mxCell id="XBq7gbCQG5frtiL8yvXq-15" value="Prenom" style="fillColor=none;strokeColor=none;align=left;fontSize=14;fontColor=#212529;shadow=0;" vertex="1" parent="c6QeVOp1_XtwmCldLlQu-5">
           <mxGeometry x="180" y="740" width="400" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XBq7gbCQG5frtiL8yvXq-16" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Vos informations&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=32;fontColor=#00BEF2;" vertex="1" parent="c6QeVOp1_XtwmCldLlQu-5">
+        <mxCell id="XBq7gbCQG5frtiL8yvXq-16" value="&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;b&gt;Vos informations&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=32;fontColor=#00BEF2;" vertex="1" parent="c6QeVOp1_XtwmCldLlQu-5">
           <mxGeometry x="476.75" y="610" width="286.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XBq7gbCQG5frtiL8yvXq-73" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Créez vos identifiants&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=32;fontColor=#00BEF2;" vertex="1" parent="c6QeVOp1_XtwmCldLlQu-5">
+        <mxCell id="XBq7gbCQG5frtiL8yvXq-73" value="&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;b&gt;Créez vos identifiants&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=32;fontColor=#00BEF2;" vertex="1" parent="c6QeVOp1_XtwmCldLlQu-5">
           <mxGeometry x="459.75" y="320" width="343.25" height="30" as="geometry" />
         </mxCell>
       </root>
